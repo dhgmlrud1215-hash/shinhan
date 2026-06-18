@@ -1,7 +1,7 @@
 .main-visual {
     display: flex;
     gap: 24px;
-    max-width: 1850px;
+    max-width: 1860px;
     margin: 40px auto;
     align-items: flex-start;
 }

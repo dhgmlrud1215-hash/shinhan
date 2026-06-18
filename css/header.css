@@ -8,6 +8,10 @@ body {font-family: 'Noto Sans', sans-serif;}
     top: 0;
     z-index: 9999;
     background: #fff;
+
+     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+     backdrop-filter: blur(12px);
+    box-shadow: 0 4px 15px rgba(15, 23, 42, 0.06);
 }
 
 #header {
