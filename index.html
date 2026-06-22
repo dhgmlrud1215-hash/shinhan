@@ -26,6 +26,7 @@
     <script type="text/babel" src="js/Header.js"></script>
     <script type="text/babel" src="js/MainVisual.js"></script>
     <script type="text/babel" src="js/Home.js"></script>
+    <script type="text/babel" src="js/CardDetail.js"></script>
     <script type="text/babel" src="js/Footer.js"></script>
 
     <script type="text/babel">
@@ -38,6 +39,7 @@ function Sinhan() {
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/card/:id" component={CardDetail} />
       </Switch>
       <Footer />
     </HashRouter>
