@@ -79,6 +79,7 @@ function Home() {
     const[benefitIndex, setBenefitIndex] = React.useState(0);
     const[activeTab, setActiveTab] = React.useState(null);
 
+    const { Link } = ReactRouterDOM;
 
     return(
         <>
@@ -2015,7 +2016,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 Simple Plan 자세히 보기">자세히 보기</a>
+                <Link to="/card/simple-plan" aria-label="신한카드 Simple Plan 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2039,7 +2042,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 Simple Plan+ 자세히 보기">자세히 보기</a>
+                <Link to="/card/simple-plan-plus" aria-label="신한카드 Simple Plan+ 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2063,7 +2068,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드  Mr.Life 자세히 보기">자세히 보기</a>
+                <Link to="/card/mr-life" aria-label="신한카드 Mr.Life 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2087,7 +2094,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 Discount Plan 자세히 보기">자세히 보기</a>
+                <Link to="/card/discount-plan" aria-label="신한카드 Discount Plan 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2111,7 +2120,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 Discount Plan+ 자세히 보기">자세히 보기</a>
+                <Link to="/card/discount-plan-plus" aria-label="신한카드 Discount Plan+ 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
             
@@ -2135,7 +2146,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 처음 자세히 보기">자세히 보기</a>
+                <Link to="/card/first" aria-label="신한카드 처음 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2159,7 +2172,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 Deep Oil 자세히 보기">자세히 보기</a>
+                <Link to="/card/deep-oil" aria-label="신한카드 Deep Oil 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div> 
             
@@ -2183,7 +2198,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 Air One 자세히 보기">자세히 보기</a>
+                <Link to="/card/air-one" aria-label="신한카드 Air One 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2207,7 +2224,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 Edu Plan+ 자세히 보기">자세히 보기</a>
+                <Link to="/card/edu-plan-plus" aria-label="신한카드 Edu Plan+ 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2231,7 +2250,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="K-패스 신한카드 자세히 보기">자세히 보기</a>
+                <Link to="/card/k-pass" aria-label="K-패스 신한카드 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2255,7 +2276,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 The CLASSIC+ 자세히 보기">자세히 보기</a>
+                <Link to="/card/the-classic-plus" aria-label="신한카드 The CLASSIC+ 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 
@@ -2279,7 +2302,9 @@ function Home() {
                     </p>
                 </div>
 
-                <a href="#" aria-label="신한카드 SOL 트래블 체크 자세히 보기">자세히 보기</a>
+                <Link to="/card/sol-travel-check" aria-label="신한카드 SOL 트래블 체크 자세히 보기">
+                    자세히 보기
+                </Link>
               </div> 
             </div>
 

@@ -1,7 +1,14 @@
 function CardDetail() {
   const [tab, setTab] = React.useState("benefit");
 
-  const card = cardData[0];
+  const { useParams } = ReactRouterDOM;
+  const { id } = useParams();
+
+  const card = cardData.find(item => item.id === id);
+
+  if (!card) {
+    return <main className="card-detail">카드를 찾을 수 없습니다.</main>;
+  }
 
   return (
     <main className="card-detail">
@@ -11,7 +18,16 @@ function CardDetail() {
         <div>
           <h2>{card.name}</h2>
           <p>{card.desc}</p>
-          <p className="card-fee">연회비 {card.fee}</p>
+        </div>
+
+        <div className="card-fee">
+          <h3>연회비</h3>
+          {card.fee.map((item, index) => (
+            <div className="fee-row" key={index}>
+              <span>{item.brand}</span>
+              <span>{item.price}</span>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -23,7 +39,6 @@ function CardDetail() {
       {tab === "benefit" && (
         <div className="benefit-wrap">
           {card.benefits.map((item, index) => (
-            
             <section className="benefit-box" key={index}>
               <h3>{item.title}</h3>
               {item.desc.map((text, i) => (
@@ -38,20 +53,27 @@ function CardDetail() {
         <div className="notice-wrap">
           <section>
             <h3>카드 발급 유의사항</h3>
-            {card.notices.issue.map((text, index) => (
+            {card.issue.map((text, index) => (
               <p key={index}>· {text}</p>
             ))}
           </section>
 
           <section>
             <h3>부가서비스 변경가능 사유</h3>
-            {card.notices.change.map((text, index) => (
-              <p key={index}>· {text}</p>
+            {commonNotices.change.map((text, index) => (
+              <p key={index}>{text}</p>
             ))}
           </section>
 
           <section className="notice-box">
-            {card.notices.info.map((text, index) => (
+            <p>· 회사명: 신한카드</p>
+            <p>· 상품명: {card.name}</p>
+
+            {card.releaseDate && (
+              <p>· 카드 출시 일자: {card.releaseDate}</p>
+            )}
+
+            {commonNotices.info.slice(1).map((text, index) => (
               <p key={index}>· {text}</p>
             ))}
           </section>
