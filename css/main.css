@@ -56,7 +56,7 @@ h3{color: #222;}
 .card-detail {
     padding: 50px 30px 30px 30px;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
 
     box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
     margin-left:30px;
@@ -120,7 +120,7 @@ h3{color: #222;}
 .card-buttons  a {
     display: inline-block;
     padding: 3px 10px;
-    border-radius: 6px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
 }
@@ -290,6 +290,7 @@ h3{color: #222;}
 .service-content {
     background:rgb(234,241,255,0.5); 
     padding: 22px 28px;
+    border-radius: 5px;
 } 
 
 .group {
@@ -328,9 +329,11 @@ h3{color: #222;}
   width: 100%;
   background: #F7F9FC;
   padding: 50px;
+
   display: flex;
   box-sizing: border-box;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .event-list {
@@ -377,20 +380,13 @@ h3{color: #222;}
 
 
 /* solpay배너 */
-.solpay {
-    max-width: 1850px;
-    margin: 80px auto 70px;
-    padding: 0 20px;
-}
 
 .solpay img {
-    width: 100%;
-    display: block;
-    height: clamp(360px, 28vw, 430px);
-    object-fit: cover;
-    object-position: center;
+  width: 100%;
+  height: 600px;
+  display: block;
+  border-radius: 5px;
 }
-
 
 /* footer*/
 footer {
