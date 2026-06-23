@@ -6,10 +6,10 @@ function Login() {
     if (e) e.preventDefault();
 
     localStorage.setItem("isLogin", "true");
-    localStorage.setItem("userName", "포트폴리오 회원");
+    localStorage.setItem("userName", "김그린 회원");
 
     alert("포트폴리오용 로그인 처리되었습니다.");
-    window.location.href = "#/mypage";
+    window.location.href = "index.html#/";
   };
 
   return (

@@ -129,9 +129,23 @@
   font-weight: bold;
 }
 
-@media (max-width: 500px) {
-  .login-card {
-    width: 100%;
-    padding: 28px 22px;
-  }
+.login-btn {
+  width: 100%;
+  height: 46px;
+  border: none;
+  border-radius: 8px;
+  background: #0046ff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+button.login-btn {
+  appearance: none;
 }

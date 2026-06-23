@@ -2,6 +2,13 @@
 function Home() {
 
     const [index, setIndex] = React.useState(0);
+
+    const [showPopup, setShowPopup] = React.useState(true);
+
+    const closePopup = () => {
+        setShowPopup(false);
+    };
+
     const images = [
         "img/header/mainvn1.png",
         "img/header/mainvn2.png",
@@ -83,7 +90,26 @@ function Home() {
 
     return(
         <>
-    <MainVisual />
+
+        {showPopup && (
+            <div className="popup-bg">
+                <div className="portfolio-popup">
+                    <h2>포트폴리오 안내</h2>
+                    <p>
+                        본 사이트는 개인 포트폴리오용 신한카드 리뉴얼 프로젝트입니다.
+                        <br />
+                        실제 금융 서비스 및 인증 기능은 제공하지 않습니다.
+                    </p>
+
+                    <button type="button" onClick={closePopup}>
+                        확인
+                    </button>
+                </div>
+            </div>
+        )}
+
+
+        <MainVisual />
 
     <section className="category" aria-label="혜택 카테고리">
         <h3>혜택 카테고리</h3>

@@ -461,3 +461,45 @@ footer {margin: 0 20px; color: #222;}
 .site option {color: #333;}
 
 .site option:first-child {color:rgb(0,0,0,0.5) ;}
+
+
+/* 팝업창 */
+.popup-bg {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+
+.portfolio-popup {
+  width: 480px;
+  padding: 36px 32px;
+  background: #fff;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.portfolio-popup h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.portfolio-popup p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 28px;
+}
+
+.portfolio-popup button {
+  width: 100%;
+  height: 46px;
+  border: 0;
+  border-radius: 12px;
+  background: #0046ff;
+  color: #fff;
+  cursor: pointer;
+}

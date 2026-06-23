@@ -1,250 +1,131 @@
 @import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
 
 .main-visual {
-    display: flex;
-    gap: 24px;
-    max-width: 1860px;
-    margin: 40px auto;
-    align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  max-width: 1850px;
+  height: 600px;
+  margin: 40px auto;
+  align-items: stretch;
 }
 
 .main-visual .banner {
-    flex: 1;
+  flex: 1;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .main-visual .banner img {
-    width: 100%;
-    height: 500px;
-    display: block;
-    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 .login-box {
-    width: 320px;
-    height: auto;
-    min-height: 0;
+  width: 320px;
+  height: 100%;
+  box-sizing: border-box;
+  flex: none;
 
-    padding: 28px 24px 32px;
-    border-radius: 24px;
-    background: #fff;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+
+  padding: 28px 24px 32px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
 
 .login-box h3 {
-    font-size: 24px;
-    margin-bottom: 8px;
+  font-size: 24px;
+  margin-bottom: 8px;
 }
 
 .login-box p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-    margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .login-btn {
-    display: block;
-    width: 100%;
-    height: 50px;
-
-    margin: 20px 0;
-    border-radius: 12px;
-
-    background: #0046FF;
-    color: #fff !important;
-
-    font-size: 17px;
-    font-weight: 600;
-    text-align: center;
-
-    transition: .3s;
-}
-
-.login-btn:hover {
-    background: #0038cc;
+  display: block;
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 10px;
+  background: #0046ff;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin: 14px 0 ;
 }
 
 .login-links {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    font-size: 13px;
-    margin: 15px 0 25px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-size: 13px;
+  margin: 10px 0 25px;
 }
 
 .login-links a,
 .login-links span {
-    color: #777;
+  color: #777;
 }
 
-
 .mini-menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 30px;
 }
 
 .mini-menu a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 54px;
-    background: #f5f7fb;
-    border-radius: 12px;
-    font-size: 14px;
-    color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  background: #f5f7fb;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #222;
 }
 
 .mini-menu a:hover {
-    background: #eef3ff;
+  background: #eef3ff;
 }
 
-
 .mini-menu .cs-link {
-    background: #eef4ff;
-    color: #0046ff;
-    font-weight: 700;
+  background: #eef4ff;
+  color: #0046ff;
+  font-weight: 700;
 }
 
 .login-alert {
-    margin-top: 24px;
+  margin-top: auto;
 }
 
 .alert-title {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 5px;
 }
 
 .alert-title img {
-    width: 25px;
-    height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
 .alert-title strong {
-    font-size: 15px;
-    color: #0046ff;
-}
-
-.main-visual {
-    display: flex;
-    gap: 24px;
-    max-width: 1850px;
-    margin: 40px auto;
-    align-items: flex-start;
-}
-
-.main-visual .banner {
-    flex: 1;
-}
-
-.main-visual .banner img {
-    width: 100%;
-    height: 500px;
-    display: block;
-    border-radius: 10px;
-}
-
-.login-box {
-    width: 320px;
-    height: 500px;
-    
-    padding: 28px 24px 32px;
-    border-radius: 24px;
-    background: #fff;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-}
-
-.login-box h3 {
-    font-size: 24px;
-    margin-bottom: 8px;
-}
-
-.login-box p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-.login-btn {
-    display: block;
-    width: 100%;
-    padding: 14px 0;
-    border-radius: 10px;
-    background: #0046ff;
-    color: #fff;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 14px;
-}
-
-.login-links {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    font-size: 13px;
-    margin: 15px 0 25px;
-}
-
-.login-links a,
-.login-links span {
-    color: #777;
-}
-
-
-.mini-menu {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
-.mini-menu a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 54px;
-    background: #f5f7fb;
-    border-radius: 12px;
-    font-size: 14px;
-    color: #222;
-}
-
-.mini-menu a:hover {
-    background: #eef3ff;
-}
-
-
-.mini-menu .cs-link {
-    background: #eef4ff;
-    color: #0046ff;
-    font-weight: 700;
-}
-
-.login-alert {
-    margin-top: 24px;
-}
-
-.alert-title {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 5px;
-}
-
-.alert-title img {
-    width: 25px;
-    height: 25px;
-}
-
-.alert-title strong {
-    font-size: 15px;
-    color: #0046ff;
+  font-size: 15px;
+  color: #0046ff;
 }
 
 .login-alert p {
-    font-size: 13px;
-    color: #555;
-    line-height: 1.4;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.4;
 }
