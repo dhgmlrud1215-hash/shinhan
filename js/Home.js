@@ -2462,7 +2462,7 @@ function Home() {
     </section>
 
     <section class="solpay" aria-label="SOL Pay 안내">
-        <img src="img/solpay.png" alt="신한 SOL Pay 서비스 안내 배너"/>
+        <img src="img/solpay-fixed.png" alt="신한 SOL Pay 서비스 안내 배너"/>
     </section>
         
         </>

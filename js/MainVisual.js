@@ -12,9 +12,9 @@ function MainVisual() {
     };
 
     const images = [
-        "img/header/mainvn1.png",
-        "img/header/mainvn2.png",
-        "img/header/mainvn3.png"
+        "img/header/mainvn1-fixed.png",
+        "img/header/mainvn2-fixed.png",
+        "img/header/mainvn3-fixed.png"
     ];
 
     React.useEffect(() => {
