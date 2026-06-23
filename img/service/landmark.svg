@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-landmark-icon lucide-landmark"><path d="M10 18v-7"/><path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="icon icon-landmark-3d-mono">
+  <defs>
+    <linearGradient id="lm_stone" x1="3" y1="2" x2="21" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".5" stop-color="#A1A1AA"/>
+      <stop offset="1" stop-color="#27272A"/>
+    </linearGradient>
+    <filter id="lm_shadow" x="1" y="1" width="22" height="23" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1" flood-color="#000000" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <ellipse cx="12" cy="22" rx="8.4" ry="1" fill="#000" opacity=".14"/>
+  <g filter="url(#lm_shadow)" fill="url(#lm_stone)">
+    <path d="M11.1 2.6c.6-.3 1.2-.3 1.8 0l7.8 3.8c.6.3.4 1.1-.2 1.1h-17c-.6 0-.8-.8-.2-1.1l7.8-3.8Z"/>
+    <path d="M5 18.1h14v2H5z"/>
+    <path d="M3.2 20.4h17.6v1.4H3.2z"/>
+    <rect x="5.5" y="9.5" width="2.5" height="8.7" rx=".6"/>
+    <rect x="10.8" y="9.5" width="2.5" height="8.7" rx=".6"/>
+    <rect x="16" y="9.5" width="2.5" height="8.7" rx=".6"/>
+  </g>
+  <path d="M6.2 6.4h11.5M6.4 10.4v6.5M11.6 10.4v6.5" stroke="#FFFFFF" stroke-linecap="round" stroke-width=".8" opacity=".5"/>
+</svg>
