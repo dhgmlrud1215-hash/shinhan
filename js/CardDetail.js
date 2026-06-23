@@ -11,7 +11,11 @@ function CardDetail() {
   return (
     <main className="card-detail-page">
       <section className="card-detail-page-top">
-        <img src={card.img} alt={card.name} />
+        <img 
+          src={card.img} 
+          alt={card.name} 
+          className="detail-card-img"
+          />
 
         <div>
           <h2>{card.name}</h2>

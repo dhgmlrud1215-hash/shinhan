@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tv-minimal-play-icon lucide-tv-minimal-play"><path d="M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z"/><path d="M7 21h10"/><rect width="20" height="14" x="2" y="3" rx="2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="icon icon-tv-3d">
+  <defs>
+    <linearGradient id="tvFrame" x1="2" y1="3" x2="22" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset=".55" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="tvScreen" x1="4" y1="5" x2="20" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset=".55" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="softShadow" x="1" y="2" width="22" height="21" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1" flood-color="#0F172A" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <ellipse cx="12" cy="21" rx="7.2" ry="1.1" fill="#0F172A" opacity=".14"/>
+  <g filter="url(#softShadow)">
+    <rect x="2.6" y="3.4" width="18.8" height="13.7" rx="2.2" fill="url(#tvFrame)"/>
+    <rect x="4.2" y="5" width="15.6" height="10.2" rx="1.3" fill="url(#tvScreen)"/>
+    <path d="M10.4 8.1c0-.5.5-.8.9-.5l4 2.3c.4.3.4.9 0 1.1l-4 2.3c-.4.3-.9 0-.9-.5V8.1Z" fill="#FFFFFF"/>
+    <path d="M8.2 20.1h7.6M10.2 17.2l-.7 2.9M13.8 17.2l.7 2.9" stroke="#334155" stroke-linecap="round" stroke-width="1.4"/>
+    <path d="M5.2 5.8h12.7" stroke="#FFFFFF" stroke-linecap="round" stroke-width=".9" opacity=".45"/>
+  </g>
+</svg>

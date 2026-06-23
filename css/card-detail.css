@@ -202,3 +202,18 @@
 .benefits-text li span {
   color: #0066ff;
 }
+
+.detail-card-img {
+  transform: rotate(90deg);
+  animation: cardSpin 1s ease forwards;
+}
+
+@keyframes cardSpin {
+  0% {
+    transform: rotateY(0deg) rotate(90deg);
+  }
+
+  100% {
+    transform: rotateY(360deg) rotate(90deg);
+  }
+}

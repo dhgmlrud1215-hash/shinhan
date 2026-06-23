@@ -2,7 +2,7 @@
 
 * {box-sizing: border-box;}
 body {font-family: 'Noto Sans', sans-serif;}
-section {margin: 50px 20px;}
+section {margin: 50px 30px;}
 a {text-decoration: none; color: #222;}
 h3{color: #222;}
 
@@ -20,8 +20,9 @@ h3{color: #222;}
 .category ul li {
     text-align: center;
     border: 1px solid #E5E7EB;
-    width: 90px; height: 120px;
-    padding: 15px 5px 10px;
+    width: 50px; 
+    height: 120px;
+    padding: 25px 5px 5px;
     border-radius: 5px;
     background: #fff;
     box-shadow:0 12px 10px rgba(15,23,42,0.08);
@@ -34,7 +35,7 @@ h3{color: #222;}
     background:#EAF1FF ;
     color: #0046FF;
 }
-.category p {margin-top: 20px; color: #222;}
+.category p {margin-top: 10px; color: #222;}
 .category img {width: 35px; height: 35px;}
 
 
@@ -208,7 +209,7 @@ h3{color: #222;}
     border: 1px solid #E5E7EB;
     border-radius: 5px;
     box-shadow:0 12px 10px rgba(15,23,42,0.08);
-    padding: 10px 0;
+    padding: 20px 0;
     cursor: pointer;
     transition: transform .3s, box-shadow .3s;
 }
@@ -377,7 +378,10 @@ h3{color: #222;}
 
 
 /* footer*/
-footer {margin: 0 20px; color: #222;}
+footer {
+    margin: 0 20px; 
+    color: #222;
+}
 
 .shinhan-footer {
     border-top: 1px solid #E5E7EB;
@@ -385,15 +389,16 @@ footer {margin: 0 20px; color: #222;}
 
 .footer-number {
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: center;
-    margin-top: 20px;
+    align-items: center;
+    margin: 20px auto 0;
     text-align: center;
 }
 
 .center {
     width: 35%;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -413,6 +418,11 @@ footer {margin: 0 20px; color: #222;}
   margin-top: 30px;
   gap: 10px;
   white-space: nowrap;
+  font-size: 15px;
+}
+
+.footer-nav strong {
+    font-size: 15px;
 }
 
 
@@ -432,15 +442,20 @@ footer {margin: 0 20px; color: #222;}
     margin-top: 30px;
 }
 
+
+.footer-sns {
+    margin-left: 40px;
+}
+
 .footer-sns img {
-    width: 30px; 
-    height: 30px;
+    width: 20px; 
+    height: 20px;
     margin-right: 10px;
 }
 
 .footer-info {
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.6;
 }
 
@@ -449,8 +464,7 @@ footer {margin: 0 20px; color: #222;}
 
 .ert img {
     width: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 10px;
 }
 
 .site {
