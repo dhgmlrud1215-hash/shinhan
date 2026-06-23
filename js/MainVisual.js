@@ -1,4 +1,5 @@
 function MainVisual() {
+    const { Link } = ReactRouterDOM;
     const [index, setIndex] = React.useState(0);
 
     const images = [
@@ -25,7 +26,9 @@ function MainVisual() {
             <h3>안녕하세요</h3>
             <p>신한카드 회원 서비스를 이용해보세요.</p>
 
-            <a href="#" className="login-btn">로그인</a>
+            <Link to="/login" className="login-btn">
+                로그인
+            </Link>
 
             <div className="login-links">
                 <a href="#">아이디 찾기</a>
