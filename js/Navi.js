@@ -13,8 +13,12 @@ function Navi() {
 
 
     return(
-    <div className="navi-wrap" onMouseLeave={() => setOpenMenu(null)}>
-    <nav>
+    <div 
+        className="navi-wrap" 
+        onMouseLeave={() => setOpenMenu(null)}
+        >
+
+    <nav id="menu" aria-label="주요 메뉴">
         <ul className="navi">
             <li>
                 <button 

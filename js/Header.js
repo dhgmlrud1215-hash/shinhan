@@ -3,6 +3,10 @@ function Header() {
     const [isSearchOpen, setIsSearchOpen] = React.useState(false);
 
     return(
+     <>
+        <a href="#menu" className="skip-link">메뉴 바로가기</a>
+        <a href="#main-content" className="skip-link">메인 콘텐츠 바로가기</a>
+
         <header className="site-header">
              <div id="header">
                 <div className="header-left">
@@ -78,8 +82,9 @@ function Header() {
             </ul>
         </div>
     </div>
-)}
-        </header>
+    )}
+    </header>
+    </>
     );
 }
 window.Header = Header;

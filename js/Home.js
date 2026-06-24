@@ -108,8 +108,8 @@ function Home() {
             </div>
         )}
 
-
-        <MainVisual />
+    <main id="main-content">
+      <MainVisual />
 
     <section className="category" aria-label="혜택 카테고리">
         <h3>혜택 카테고리</h3>
@@ -2464,6 +2464,7 @@ function Home() {
     <section class="solpay" aria-label="SOL Pay 안내">
         <img src="img/solpay.png" alt="신한 SOL Pay 서비스 안내 배너"/>
     </section>
+    </main>
         
         </>
     )
